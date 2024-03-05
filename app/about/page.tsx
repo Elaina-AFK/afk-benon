@@ -8,7 +8,7 @@ import {
 export default function About() {
   return (
     <main className="w-full mt-24">
-      <section className="flex mt-3 pl-3 group">
+      <section className="flex mt-3 px-3 group">
         <h4 className="w-1/3 text-right pr-16 border-r-2 scroll-m-20 text-xl font-semibold tracking-tight group-hover:border-primary transition-colors">
           Profile
         </h4>
@@ -20,7 +20,7 @@ export default function About() {
           </p>
         </div>
       </section>
-      <section className="flex mt-16 pl-3 group">
+      <section className="flex mt-16 px-3 group">
         <h4 className="w-1/3 text-right pr-16 border-r-2 scroll-m-20 text-xl font-semibold tracking-tight group-hover:border-primary transition-colors">
           Technology and Languages
         </h4>
@@ -47,7 +47,7 @@ export default function About() {
       </section>
       <Accordion
         type="single"
-        className="mt-16 mx-auto max-w-prose"
+        className="my-16 mx-auto max-w-prose px-3"
         collapsible
       >
         <AccordionItem value="item-1">
