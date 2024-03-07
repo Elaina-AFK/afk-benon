@@ -71,10 +71,18 @@ export default function About() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger>How did you make whis website?</AccordionTrigger>
+          <AccordionTrigger>How did I make this website?</AccordionTrigger>
           <AccordionContent>
             I made this with Next.js(Typescript, TailwindCSS), Shadcn
-            components, and hosting with Firebase.
+            components, and hosting with Firebase. For chatbot I used PaLM2 API
+            from google. You can see my source code{" "}
+            <a
+              href="https://github.com/Elaina-AFK/afk-benon"
+              className="text-primary"
+            >
+              here
+            </a>
+            .
           </AccordionContent>
         </AccordionItem>
       </Accordion>
